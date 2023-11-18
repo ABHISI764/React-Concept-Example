@@ -1,13 +1,14 @@
-import React, { useRef, useState } from 'react';
+import React, {useState, createContext} from 'react';
 import './App.css';
-import UseRefExample from './components/All-Hooks/useRef-Hook/UseRefExample';
+import AppCopy from './components/All-Hooks/useContext-Hook/AppCopy';
 
 function App() {
 
+
   return (
     <div className="App">
+      <AppCopy />
      
-      <UseRefExample />
     </div>
   );
 }
