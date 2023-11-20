@@ -1,12 +1,13 @@
 import React, {useState, createContext} from 'react';
 import './App.css';
-import UseMemoExample from './components/All-Hooks/useMemo-Hook/UseMemoExample';
+import UseCallbackExample from './components/All-Hooks/useCallback-Hook/UseCallbackExample';
 
 
 function App() {
   return (
     <div className="App">
-     <UseMemoExample />
+      <UseCallbackExample />
+ 
     </div>
   );
 }
