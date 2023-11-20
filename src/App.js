@@ -1,14 +1,12 @@
 import React, {useState, createContext} from 'react';
 import './App.css';
-import AppCopy from './components/All-Hooks/useContext-Hook/AppCopy';
+import UseMemoExample from './components/All-Hooks/useMemo-Hook/UseMemoExample';
+
 
 function App() {
-
-
   return (
     <div className="App">
-      <AppCopy />
-     
+     <UseMemoExample />
     </div>
   );
 }
