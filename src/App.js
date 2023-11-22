@@ -1,13 +1,12 @@
 import React, {useState, createContext} from 'react';
 import './App.css';
-import UseStateExample from './components/All-Hooks/useState-Hook/UseStateExample';
+import UseEffectExample from './components/All-Hooks/useEffect-Hooks/UseEffectExample';
 
 
 function App() {
   return (
     <div className="App">
-      
-      <UseStateExample />
+      <UseEffectExample />
  
     </div>
   );
