@@ -1,13 +1,12 @@
-import React, {useState, createContext} from 'react';
+import React, { useState, createContext } from 'react';
 import './App.css';
-import SearchFilterExample from './components/All-Hooks/Search-Filter/SearchFilterExample';
+import PureComponentExample from './components/All-Hooks/pure-component/PureComponentExample';
 
 
 function App() {
   return (
     <div className="App">
-  <SearchFilterExample />
- 
+      <PureComponentExample />
     </div>
   );
 }

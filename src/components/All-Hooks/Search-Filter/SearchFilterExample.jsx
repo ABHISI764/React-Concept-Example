@@ -19,11 +19,11 @@ function SearchFilterExample() {
 
     return (
         <div>
-            <input type='text' placeholder='Search' onChange={(e) => setQuery(e.target.value)}/>
+            <input type='text' placeholder='Search' onChange={(e) => setQuery(e.target.value)} />
             <div>
                 <ul className='list'>
                     {userData.filter((user) => user.name.toLowerCase().includes(query))
-                    .map((user) => (<li key={user.id}>{user.id} {user.name}</li>))}
+                        .map((user) => (<li key={user.id}>{user.id} {user.name}</li>))}
                 </ul>
             </div>
             {error !== " " && <h2>{error}</h2>}
