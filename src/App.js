@@ -1,12 +1,12 @@
 import React, {useState, createContext} from 'react';
 import './App.css';
-import UseEffectExample from './components/All-Hooks/useEffect-Hooks/UseEffectExample';
+import SearchFilterExample from './components/All-Hooks/Search-Filter/SearchFilterExample';
 
 
 function App() {
   return (
     <div className="App">
-      <UseEffectExample />
+  <SearchFilterExample />
  
     </div>
   );
