@@ -1,12 +1,12 @@
 import React, { useState, createContext } from 'react';
 import './App.css';
-import PureComponentExample from './components/All-Hooks/pure-component/PureComponentExample';
+import CustomeHookExample from './components/All-Hooks/Custom-Hooks/CustomeHookExample';
 
 
 function App() {
   return (
     <div className="App">
-      <PureComponentExample />
+      <CustomeHookExample />
     </div>
   );
 }
