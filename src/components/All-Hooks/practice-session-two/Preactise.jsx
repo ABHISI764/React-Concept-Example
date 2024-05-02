@@ -1,13 +1,9 @@
-import React, { useState } from 'react'
-
+import React from 'react'
 
 function Preactise() {
-  
-    return (
-        <div>
-           Hello world
-        </div>
-    )
+  return (
+    <div>Preactise</div>
+  )
 }
 
 export default Preactise
