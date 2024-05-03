@@ -1,14 +1,11 @@
-import React, { useState, createContext } from 'react';
+import React from 'react';
 import './App.css';
-import CustomeHookExample from './components/All-Hooks/Custom-Hooks/CustomeHookExample';
-import Preactise from './components/All-Hooks/practice-session-two/Preactise';
-
+import ComponentA from './components/All-Hooks/Context-Api/ComponentA';
 
 function App() {
   return (
-    <div className="App">
-      {/* <CustomeHookExample /> */}
-      <Preactise />
+    <div>
+      <ComponentA />
     </div>
   );
 }
