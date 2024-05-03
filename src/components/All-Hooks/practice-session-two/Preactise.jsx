@@ -1,8 +1,13 @@
 import React from 'react'
+import ProductPage from '../Code-Splitting/ProductPage'
 
 function Preactise() {
+ 
   return (
-    <div>Preactise</div>
+    <div>
+     <ProductPage />
+        
+    </div>
   )
 }
 

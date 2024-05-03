@@ -1,0 +1,11 @@
+1. Code splitting in React is a technique used to 
+improve the performance of web applications by splitting the code into smaller bundles
+ that can be loaded on demand. 
+2. using this technique we can load which component which is require at that time. 
+3. using code splitting aur application work fast 
+
+step : first create two component
+wirte lazy code functionality in Product page 
+and then call Product page in app js and check result on source tab in browser source 
+
+// URl : https://www.youtube.com/watch?v=3PU-ayPABg4
