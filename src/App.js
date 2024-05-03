@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import ComponentA from './components/All-Hooks/Context-Api/ComponentA';
+import ApiCallUsingAxios from './components/All-Hooks/Get-Api-Call/ApiCallUsingAxios';
 
 function App() {
   return (
     <div>
-      <ComponentA />
+      <ApiCallUsingAxios />
+
     </div>
   );
 }
