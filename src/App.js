@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import FetchApiCallExample from './components/All-Hooks/Get-Api-Call/FetchApiCallExample';
+import App2 from './components/All-Hooks/Error-Boundaries/App2';
 
 function App() {
   return (
-    <div>
-      <FetchApiCallExample />
-
+    <div style={{ alignItems: 'center' }}>
+      <App2 />
     </div>
   );
 }
-
 export default App;
