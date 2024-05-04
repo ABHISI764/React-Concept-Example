@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import App2 from './components/All-Hooks/Error-Boundaries/App2';
+import App3 from './components/All-Hooks/UseCallback2-Example/App3';
+
 
 function App() {
   return (
     <div style={{ alignItems: 'center' }}>
-      <App2 />
+      <App3 />
     </div>
   );
 }
