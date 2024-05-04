@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ApiCallUsingAxios from './components/All-Hooks/Get-Api-Call/ApiCallUsingAxios';
+import FetchApiCallExample from './components/All-Hooks/Get-Api-Call/FetchApiCallExample';
 
 function App() {
   return (
     <div>
-      <ApiCallUsingAxios />
+      <FetchApiCallExample />
 
     </div>
   );
